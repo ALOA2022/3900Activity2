@@ -7,11 +7,6 @@ a {
  text-decoration: none;
   color: #0d50cd;
  }
-
-:visited {
-    text-decoration: none;
-    color: darkgray;
-}
  body {
    font-family: 'Open Sans', sans-serif;
  }

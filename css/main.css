@@ -8,16 +8,12 @@ a {
   color: #0d50cd;
  }
 
+:visited {
+    text-decoration: none;
+    color: darkgray;
+}
  body {
    font-family: 'Open Sans', sans-serif;
- }
-
-
- #wrapper {
-   max-width: 940px;
-   margin: 0 auto;
-   padding: 0 5%;
-
  }
 
  h3 {
@@ -29,50 +25,21 @@ a {
 HEADING
 **************************************/
 
-header {
-  float: left;
-  margin: 0 0 20px 0;
-  padding: 2px 0 0 0;
-  width: 100%;
-
-}
-
 .center {
  text-align: center
 }
-
-
-#logo {
-   text-align: center;
-   margin: 0;
-
- }
 
  h1  {
  font-family: 'Changa One', sans-serif;
  margin: 10px 0;
  font-size: 1.75em;
- font-weight: strong;
- line-height: 0.5;
+ font-weight: bold;
+ line-height: 1.0;
  text-align: center;
 
-   color: #101884;
+   color:darkolivegreen;
 
  }
-
- h2  {
- font-size: 1.00em;
- font-weight: normal;
- margin: -5px 0 0;
-   color: #df330a;
- }
-
-
-h3  {
-    font-size: 1.1em;
-    font-weight: 700;
-    margin: 15px 0 0;
-}
 
 
 /*************************************
@@ -109,23 +76,18 @@ FOOTER
 /*************************************
 PAGE:
 **************************************/
-.mydiv {background: lightblue; width:250px; height: 250px;}
-
-.myimage {
-    float:left;
-    width:150px;
-    height:175px;
-    margin:20px;
-    border-radius: 20px;
-}
-
 .cat-photo {
     display: block;
     max-width: 250px;
     margin: 0 auto 30px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
-
+.my-photo {
+    display: block;
+    max-width 250px;
+    margin: 0 auto 30 px;
+    border-radius: 25px;
+}
 
 .catsDiv {
     display: block;
@@ -138,18 +100,6 @@ PAGE:
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    font-family: "Times New Roman", monospace;
-}
-
-
- /*************************************
-PAGE: ABOUT
-**************************************/
-.profile-photo {
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 30px;
-    border-radius: 5px;
 }
 
 /*************************************
@@ -183,5 +133,7 @@ body {
     background-color: lightgrey;
     color: #000;
     text-align: center;
+    border-top-style: groove;
+    border-bottom-style: groove;
 }
 

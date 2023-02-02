@@ -8,11 +8,6 @@ a {
   color: #0d50cd;
  }
 
-img {
-max-width: 100%;
-
-}
-
  body {
    font-family: 'Open Sans', sans-serif;
  }
@@ -57,7 +52,7 @@ header {
  font-family: 'Changa One', sans-serif;
  margin: 10px 0;
  font-size: 1.75em;
- font-weight: normal;
+ font-weight: strong;
  line-height: 0.5;
  text-align: center;
 
@@ -124,13 +119,27 @@ PAGE:
     border-radius: 20px;
 }
 
-.dog-photo {
+.cat-photo {
     display: block;
     max-width: 250px;
     margin: 0 auto 30px;
     border-radius: 5px;
 }
 
+
+.catsDiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+.myDiv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: "Times New Roman", monospace;
+}
 
 
  /*************************************
@@ -171,6 +180,8 @@ nav a.selected, nav a:hover {
 }
 /* site body*/
 body {
-    background-color: #fff;
+    background-color: lightgrey;
     color: #000;
+    text-align: center;
 }
+
